@@ -1,4 +1,4 @@
-#include "../include/HelloWorld.h"
+#include "HelloWorld.h"
 #include <iostream>
 
 HelloWorld::HelloWorld() {
@@ -6,5 +6,5 @@ HelloWorld::HelloWorld() {
 }
 
 void HelloWorld::print() {
-	std::cout << this->msg << " New branch" << std::endl;
+	std::cout << this->msg << std::endl;
 }
