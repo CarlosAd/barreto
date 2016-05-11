@@ -6,5 +6,5 @@ HelloWorld::HelloWorld() {
 }
 
 void HelloWorld::print() {
-	std::cout << this->msg << std::endl;
+	std::cout << this->msg;
 }
